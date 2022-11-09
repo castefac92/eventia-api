@@ -5,7 +5,7 @@ const purchaseRoute = require("./routes/purchase");
 
 // settings
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 app.set("token", process.env.TOKEN || "recipeT0k3n");
 app.listen(PORT, () => console.log(`Escuchando en puerto", ${PORT}`));
 
@@ -17,7 +17,7 @@ app.use("/api", purchaseRoute);
 
 // routes
 app.get("/", (req, res) => {
-  res.send("InfoBase API");
+  res.send("Eventia API");
 });
 
 
