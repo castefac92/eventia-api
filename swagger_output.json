@@ -1,0 +1,107 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Eventia API",
+    "description": "Eventia API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://infobaseapi.herokuapp.com/api"
+    }
+  ],
+  "paths": {
+    "/event-types": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Operacion exitosa",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/myReferencedEventTypeArray"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/purchase/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operacion exitosa",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EventType"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EventType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "numero de la boleta",
+            "example": "1"
+          },
+          "title": {
+            "type": "string",
+            "description": "sub total de la boleta",
+            "example": "titulo"
+          },
+          "description": {
+            "type": "string",
+            "description": "descripcion del evento",
+            "example": "Lorem Ipsum"
+          },
+          "image": {
+            "type": "string",
+            "description": "imagen del servicio",
+            "example": "..."
+          },
+          "user": {
+            "type": "string",
+            "description": "nombre del usuario",
+            "example": "Maria Pia"
+          }
+        },
+        "example": {
+          "id": "015673",
+          "title": 99.99,
+          "description": "Descripcion",
+          "image": "...",
+          "user": "Maria Pia"
+        }
+      },
+      "myReferencedEventTypeArray": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/EventType"
+        }
+      }
+    }
+  }
+}
