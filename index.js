@@ -14,7 +14,7 @@ app.use(express.json());
 /*app.use("/api", billsRoute);*/
 app.use("/api", eventTypesRoute);
 app.use("/api", purchaseRoute) ;
-
+  
 // routes
 app.get("/", (req, res) => {
   res.send("Eventia API");
