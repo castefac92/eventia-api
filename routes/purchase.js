@@ -6,7 +6,7 @@ const users = [
     "Maria Pia",
     "Rodolfo La Rosa",
     "Victor Hernandez",
-    "Momo Sad"
+    "Momo Saad"
 ]
 
 router.get('/purchase/:id', (req, res) => {
