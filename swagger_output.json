@@ -12,7 +12,7 @@
   ],
   "paths": {
     "/event-types": {
-      "get": {
+      "post": {
         "description": "",
         "parameters": [],
         "responses": {
@@ -30,7 +30,7 @@
       }
     },
     "/purchase/{id}": {
-      "get": {
+      "post": {
         "description": "",
         "parameters": [
           {
@@ -90,7 +90,7 @@
         },
         "example": {
           "id": "015673",
-          "title": 99.99,
+          "title": "Titulo",
           "description": "Descripcion",
           "image": "...",
           "user": "Maria Pia"
