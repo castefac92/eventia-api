@@ -9,7 +9,7 @@ const doc = {
   },
   servers: [
     {
-      url: "https://infobaseapi.herokuapp.com/api"
+      url: "https://eventia-api.herokuapp.com/api"
     }
   ],
   components: {
@@ -19,12 +19,12 @@ const doc = {
         properties: {
           id: {
             type: "number",
-            description: "numero de la boleta",
+            description: "id del evento",
             example: "1"
           },
           title: {
             type: "string",
-            description: "sub total de la boleta",
+            description: "titulo del evento",
             example: "titulo"
           },
           description: {
@@ -45,7 +45,7 @@ const doc = {
         },
         example: {
           id: "015673",
-          title: 99.99,
+          title: "Animación",
           description: "Descripcion",
           image: "...",
           user: "Maria Pia"
