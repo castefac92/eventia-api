@@ -90,9 +90,9 @@
         },
         "example": {
           "id": "015673",
-          "title": 99.99,
+          "title": "titulo",
           "description": "Descripcion",
-          "image": "....",
+          "image": "...",
           "user": "Maria Pia"
         }
       },
