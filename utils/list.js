@@ -1,7 +1,8 @@
 const list = [
     {
         id: 1,
-        title: "Animación", description: "El evento de animación está diseñado para todo lo relacionado con fiestas infantiles. Una vocalista irá con 3 animadores (Los que usted elija) y hará una sección de juegos, cuentos y demás!!\n" +
+        title: "Animación", 
+        description: "El evento de animación está diseñado para todo lo relacionado con fiestas infantiles. Una vocalista irá con 3 animadores (Los que usted elija) y hará una sección de juegos, cuentos y demás!!\n" +
             "\n" +
             "Se puede elegir hasta 3 animadores: Pollo grande, Timoteo, Barney, Mago, Buzz Lightyear, Broly, Barbie, Pikachu, Minie.\n" +
             "\n" +
