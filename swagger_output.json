@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://eventia-api.herokuapp.com"
+      "url": "https://eventia-api.herokuapp.com/api"
     }
   ],
   "paths": {
