@@ -9,7 +9,7 @@ const users = [
     "Momo Sad"
 ]
 
-router.get('/purchase/:id', (req, res) => {
+router.post('/purchase/:id', (req, res) => {
     const {id} = req.params
 
      // #swagger.responses[200] = {
