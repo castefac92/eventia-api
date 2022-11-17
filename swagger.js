@@ -20,7 +20,7 @@ const doc = {
           id: {
             type: "number",
             description: "numero de la boleta",
-            example: "0091"
+            example: "1"
           },
           title: {
             type: "string",
@@ -44,7 +44,7 @@ const doc = {
           }
         },
         example: {
-          id: "0091",
+          id: "1",
           title: "titulo",
           description: "Lorem Ipsum",
           image: "...",
