@@ -12,7 +12,7 @@
   ],
   "paths": {
     "/event-types": {
-      "post": {
+      "get": {
         "description": "",
         "parameters": [],
         "responses": {
@@ -27,8 +27,35 @@
             }
           }
         }
+      },
+    "post": {
+      "description": "",
+      "parameters": [],
+      "responses": {
+        "200": {
+          "description": "Operacion exitosa",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EventType"
+              }
+            }
+          }
+        }
+      },
+      "requestBody": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/EventType"
+            }
+          }
+        }
       }
-    },
+    }
+  },
+
     "/purchase/{id}": {
       "post": {
         "description": "",
