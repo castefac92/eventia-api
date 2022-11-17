@@ -24,7 +24,7 @@ const doc = {
           },
           title: {
             type: "string",
-            description: "sub total de la boleta",
+            description: "nombre de evento",
             example: "titulo"
           },
           description: {
