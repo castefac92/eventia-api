@@ -19,7 +19,7 @@ const doc = {
         properties: {
           id: {
             type: "number",
-            description: "numero de la boleta",
+            description: "id del evento",
             example: "1"
           },
           title: {
