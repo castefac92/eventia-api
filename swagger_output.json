@@ -12,7 +12,7 @@
   ],
   "paths": {
     "/event-types": {
-      "get": {
+      "post": {
         "description": "",
         "parameters": [],
         "responses": {
