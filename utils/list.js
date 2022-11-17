@@ -1,6 +1,5 @@
 const list = [
-    {
-        id: 1,
+    {   
         title: "Animación", 
         description: "El evento de animación está diseñado para todo lo relacionado con fiestas infantiles. Una vocalista irá con 3 animadores (Los que usted elija) y hará una sección de juegos, cuentos y demás!!\n" +
             "\n" +
@@ -11,7 +10,6 @@ const list = [
         image: "https://lagranjavilla.com/img/ServiciosCumple.jpg"
     },
     {
-        id: 2,
         title: "Decoración",
         description: "El evento de decoración está diseñado para eventos como quinceañeros, bodas y demás.\n" +
             "Se pondrá de 10 a 30 mesas y una banda para dicho evento.\n" +
@@ -20,7 +18,6 @@ const list = [
         image: "https://www.montiboli.com/assets/uploads/hoteles/montiboli/gallery/blog/2018/29-protocolo-boda-de-dia/boda-de-dia-en-el-hotel-montiboli-d.jpg"
     },
     {
-        id: 3,
         title: "Catering",
         description: "El evento de decoración está diseñado para eventos como quinceañeros, bodas y demás.\n" +
             "Se pondrá de 10 a 40 mesas y una banda para dicho evento.\n" +
@@ -30,7 +27,6 @@ const list = [
     }
     ,
     {
-        id: 4,
         title: "Talleres",
         description: "El evento de decoración está diseñado para eventos como quinceañeros, bodas y demás.\n" +
             "Se pondrá de 10 a 30 mesas y una banda para dicho evento.\n" +

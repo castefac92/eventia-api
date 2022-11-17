@@ -17,11 +17,6 @@ const doc = {
       EventType: {
         type: "object",
         properties: {
-          id: {
-            type: "number",
-            description: "id del evento",
-            example: "1"
-          },
           title: {
             type: "string",
             description: "nombre de evento",
@@ -37,18 +32,17 @@ const doc = {
             description: "imagen del servicio",
             example: "..."
           },
-          user: {
+          price: {
             type: "string",
-            description: "nombre del usuario",
-            example: "Maria Pia"
+            description: "precio",
+            example: 6000
           }
         },
         example: {
-          id: "1",
           title: "titulo",
           description: "Lorem Ipsum",
           image: "...",
-          user: "Maria Pia"
+          price: 6000
         }
       }
     }

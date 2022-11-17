@@ -89,11 +89,7 @@
       "EventType": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "number",
-            "description": "id del evento",
-            "example": "1"
-          },
+
           "title": {
             "type": "string",
             "description": "sub total de la boleta",
@@ -103,24 +99,28 @@
             "type": "string",
             "description": "descripcion del evento",
             "example": "Lorem Ipsum"
+          }, 
+          
+          "price": {
+            "type": "string",
+            "description": "precio del evento",
+            "example": 6000
           },
+
+          
           "image": {
             "type": "string",
             "description": "imagen del servicio",
             "example": "..."
-          },
-          "user": {
-            "type": "string",
-            "description": "nombre del usuario",
-            "example": "Maria Pia"
           }
+        
         },
         "example": {
-          "id": 1,
           "title": "Titulo",
           "description": "Descripcion",
-          "image": "...",
-          "user": "Maria Pia"
+          "price": 6000,
+          "image": "..."
+          
         }
       },
       "myReferencedEventTypeArray": {
