@@ -92,7 +92,7 @@
 
           "title": {
             "type": "string",
-            "description": "sub total de la boleta",
+            "description": "titulo del evento",
             "example": "titulo"
           },
           "description": {
